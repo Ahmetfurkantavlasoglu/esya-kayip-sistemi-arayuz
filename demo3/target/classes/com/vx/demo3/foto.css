@@ -1,0 +1,33 @@
+/* foto.css */
+
+.kaybedilenEsyalarButton {
+    -fx-background-image: url("/images/f1.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-pref-width: 150;
+    -fx-pref-height: 50;
+}
+
+.bulunanEsyalarButton {
+    -fx-background-image: url("/images/f2.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-pref-width: 150;
+    -fx-pref-height: 50;
+}
+
+.cikisButton {
+    -fx-background-image: url("/images/f3.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-pref-width: 150;
+    -fx-pref-height: 50;
+}
+
+.hesapButton {
+    -fx-background-image: url("/images/f4.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-pref-width: 50;
+    -fx-pref-height: 50;
+}
