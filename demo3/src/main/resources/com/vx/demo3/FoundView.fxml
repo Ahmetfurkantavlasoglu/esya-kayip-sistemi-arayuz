@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="353.0" prefWidth="393.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vx.demo3.FoundViewController">
+   <children>
+      <Text layoutX="31.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bulunan eşyanın" />
+      <TextField fx:id="turField" layoutX="134.0" layoutY="54.0" promptText="Türü" />
+      <TextField fx:id="renkField" layoutX="134.0" layoutY="85.0" promptText="Rengi" />
+      <TextField fx:id="markaField" layoutX="134.0" layoutY="118.0" promptText="Markası" />
+
+      <!-- Fotoğraf sürükleyip bırakma alanı -->
+      <ImageView fx:id="imageView" fitHeight="150.0" fitWidth="150.0" layoutX="134.0" layoutY="160.0" onDragDropped="#handleDragDropped" onDragOver="#handleDragOver" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="48.0" layoutY="204.0" mnemonicParsing="false" onAction="#handleCreateAd" text="İlan ver" /> <!-- onAction özelliği kontrolü -->
+   </children>
+</AnchorPane>
