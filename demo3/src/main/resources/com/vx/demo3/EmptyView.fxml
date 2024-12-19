@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="128.0" prefWidth="157.0" styleClass="anchor-pane" stylesheets="@empty-view-styles.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vx.demo3.EmptyViewController">
+    <children>
+        <AnchorPane layoutX="-50.0" layoutY="8.0" prefHeight="76.0" prefWidth="209.0">
+            <children>
+                <Button fx:id="lostButton" layoutX="101.0" layoutY="32.0" mnemonicParsing="false" onAction="#showLostView" prefHeight="44.0" prefWidth="118.0" styleClass="button" text="Kaybedilen" />
+            </children>
+        </AnchorPane>
+        <Button fx:id="foundButton" layoutX="51.0" layoutY="88.0" mnemonicParsing="false" onAction="#showFoundView" prefHeight="44.0" prefWidth="118.0" styleClass="button" text="Bulunan" />
+    </children>
+</AnchorPane>
